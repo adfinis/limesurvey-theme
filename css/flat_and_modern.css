@@ -4531,7 +4531,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-right {
     margin-right: -15px;
-    padding-right: calc(100% - 820px);
   }
   .navbar-right ~ .navbar-right {
     margin-right: 0;
@@ -4548,6 +4547,31 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-brand:focus {
   color: #18bc9c;
   background-color: transparent;
+  padding-right: calc(100% - 50%);
+}
+@media (max-width: 1428px) {
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        padding-right: calc(100% - 60%);
+    }
+}
+@media (max-width: 1190px) {
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        padding-right: calc(100% - 70%);
+    }
+}
+@media (max-width: 1020px) {
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        padding-right: calc(100% - 78%);
+    }
+}
+@media (max-width: 916px) {
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        padding-right: 54px;
+    }
 }
 .navbar-default .navbar-text {
   color: #ffffff;
@@ -6800,7 +6824,13 @@ button.close {
 }
 .navbar {
   border-width: 0;
+  height: 118px;
   max-height: 118px;
+}
+@media (max-width: 767px) {
+    .navbar {
+        height: 60px;
+    }
 }
 .navbar-default .badge {
   background-color: #fff;
