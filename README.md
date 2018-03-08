@@ -1,2 +1,7 @@
 # AdSy Limesurvey Theme
-To use the Theme, Upload the AdSy_Theme.zip into the LimeSurvey Templates section.
+
+How to use:
+
+Dowload AdSy_Theme.zip, by clicking on the file and then Download.
+
+Upload the zip to LimeSurvey, by pressing Import at the Template section.
