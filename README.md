@@ -1,6 +1,6 @@
 # AdSy Limesurvey Theme
 
-How to use:
+How to install on LimeSurvey 2.x :
 
 Dowload AdSy_Theme.zip, by clicking on the file and then Download.
 
